@@ -5,6 +5,31 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vorpinputs_cl", "vorpinputs_cl\vorpinputs_cl.csproj", "{61F282D4-73FB-475F-899F-D78C6A9E26E8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4F6D6047-2478-4AD0-B1CD-421585C4E136}"
+	ProjectSection(SolutionItems) = preProject
+		build\vorp_inputs\fxmanifest.lua = build\vorp_inputs\fxmanifest.lua
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "html", "build\vorp_inputs\html\", "{21A8CEAF-BC6A-4796-8846-787AE7E51EF2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64335"
+		Debug.AspNetCompiler.PhysicalPath = "build\vorp_inputs\html\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64335\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64335"
+		Release.AspNetCompiler.PhysicalPath = "build\vorp_inputs\html\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64335\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64335"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +40,10 @@ Global
 		{61F282D4-73FB-475F-899F-D78C6A9E26E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61F282D4-73FB-475F-899F-D78C6A9E26E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61F282D4-73FB-475F-899F-D78C6A9E26E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A8CEAF-BC6A-4796-8846-787AE7E51EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A8CEAF-BC6A-4796-8846-787AE7E51EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A8CEAF-BC6A-4796-8846-787AE7E51EF2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A8CEAF-BC6A-4796-8846-787AE7E51EF2}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
